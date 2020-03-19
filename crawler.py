@@ -4,8 +4,8 @@ import urlparse
 
 
 
-target_url = "https://www.hrblock.com"
-
+url = raw_input ("Enter the url to crawl:  ")
+target_url = "https://"+url
 target_links = []
 
 def extract_links_from(url):
